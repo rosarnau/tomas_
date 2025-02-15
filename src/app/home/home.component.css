@@ -1,0 +1,20 @@
+.home-background {
+  width: 100%;
+  height: 100%;
+}
+
+.nombre-container {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  /* Remove opacity and transition from here.  Handled by animation. */
+}
+
+.nombre {
+  font-family: 'Lexend Zetta', serif;
+  font-size: 3.3rem;
+  color: #f5eeee;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+}
+

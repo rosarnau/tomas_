@@ -1,0 +1,76 @@
+.home-background {
+    filter: grayscale(50%) blur(2px); /* Aplica el filtro en blanco y negro y el difuminado 
+    position: absolute; /* Lo coloca detrás del contenido superpuesto */
+    top: 0;
+    left: 0;
+    width: 100%; /* Asegúrate que cubra toda el área */
+    height: 100%; /* Asegúrate que cubra toda el área */
+    z-index: -1; /* Coloca la imagen de fondo detrás de otros elementos */
+  }
+  .nombre {
+    font-family: 'Lexend Zetta', serif;
+    font-size: 3.3rem;
+    color: #f5eeee;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 50%;  /* Centrar verticalmente */
+    left: 22%; /* Centrar horizontalmente */
+    transform: translate(-50%, -50%); /* Asegurar centrado */
+    width: 40%; /* Ajusta según necesites */
+    height: auto; /* Mantiene la proporción */
+    z-index: 0; /* Se asegura de que esté sobre la imagen de fondo */
+  }
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que los elementos se reorganicen en pantallas pequeñas */
+    max-width: 90%; /* Para evitar que el contenido se extienda demasiado */
+  }
+  
+  
+  /* Imagen superpuesta 
+  .overlay-image {
+    width: 250px; /* Tamaño base 
+    height: auto;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out; Suaviza cambios de tamaño 
+  }
+  */
+  
+  /* Cuadro de texto */
+  .text-box {
+    width: 40%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    color: black;
+    font-size: 16px;
+    z-index: 3;
+    position: relative;
+    border: 2px solid black; /* Prueba temporal para ver si el cuadro aparece */
+  }
+  
+  
+  /* ✅ Estilos Responsivos */
+  @media (max-width: 768px) {
+    .content-wrapper {
+      flex-direction: column; /* Apila la imagen y el cuadro de texto */
+      text-align: center;
+    }
+  
+    .overlay-image {
+      width: 80%; /* Ajusta el tamaño de la imagen en móviles */
+      margin-bottom: 20px; /* Espacio entre la imagen y el cuadro de texto */
+    }
+  
+    .text-box {
+      width: 90%; /* Ocupa casi todo el ancho en móviles */
+      margin-left: 0; /* Elimina el margen izquierdo */
+    }
+  }
