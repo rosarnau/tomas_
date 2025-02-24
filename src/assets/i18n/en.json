@@ -1,4 +1,20 @@
 {
-  "HELLO": "Hello, world!",
-  "GREETING": "Welcome, {{name}}!"
+  "Biografía": "Biography",
+  "Agenda": "Schedule",
+  "Vídeos": "Videos",
+  "Discografía": "Discography",
+  "Folium Fugit": "Folium Fugit",
+  "ES": "ES",
+  "EN": "EN",
+  "BIOGRAFIA_CONTENIDO": [
+    "Tomás Jerez Munera received the Honor Award for Saxophone at the end of his studies at the Royal Conservatory of Music in Madrid.",
+    "From that moment on, he perfected his studies with professors Claude Delangle, Serge Bichon, J.M Londeix, Eric Devallon, and Philippe Braquart.",
+    "He was awarded First Prize in the IV International Saxophone Competition 'Villa de Benidorm' in 2002 and selected in 2003 by the European Union Youth Wind Orchestra –EUYWO– to tour Germany, France, the Netherlands, Belgium, and Luxembourg.",
+    "As a soloist, he regularly offers concerts and recitals at numerous International Festivals: Andorra SaxFest, International Saxophone Festival of Teror (Gran Canaria), X Cycle of Contemporary Music of Badajoz –supported by INAEM and the National Center for Musical Diffusion–, X Cycle of Contemporary Music Concerts BBVA Foundation, International Music Festival of Palma, International Saxophone Festival of Sczecin (Poland), IX International Festival of Early Music of Gijón, V Ibero-American Congress of Composers, Conductors and Arrangers of Symphonic Bands and Ensembles, International Saxophone Festival of Palmela 2012-2016 (Portugal), International Saxophone Academy (Oporto-Portugal), XI Musical Encounters of Capvern (France), or the World Saxophone Congresses of Montreal (Canada) and Las Palmas de Gran Canaria.",
+    "He regularly gives master classes throughout the country, Portugal, and at the Francisco de Vitoria University, Menéndez Pelayo International University, and the University of Castilla-La Mancha.",
+    "He has been part of the international jury at the CSMD of Poitiers (France) in the end-of-career awards for violin and saxophone and has had the immense privilege of being the first Spanish saxophonist invited to be part of the jury of the end-of-master saxophone awards at the CNSMDP – National Conservatory of Music and Dance of Paris.",
+    "He has collaborated with the Symphony Orchestra of the Community of Madrid, the Andrés Segovia Chamber Orchestra, and ORTVE, with which he has made recordings for RNE, the National Ballet of Spain, and the 'RTVE Música' label.",
+    "Between 2007-2014 he was a saxophone professor at the Higher Center of Music of the Basque Country (Musikene), a saxophone professor at the Higher Conservatory of Music of Castilla-La Mancha between 2018 and 2022, and a soloist of the Municipal Symphonic Band of Albacete since 1994.",
+    "He is an ambassador for the French instrument brand Henri Selmer Paris."
+  ]
 }

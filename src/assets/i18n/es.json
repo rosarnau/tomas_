@@ -1,5 +1,9 @@
 {
-    "HELLO": "¡Hola, mundo!",
-    "GREETING": "¡Bienvenido, {{name}}!"
-  }
-      
+  "Biografía": "Biografía",
+  "Agenda": "Agenda",
+  "Vídeos": "Vídeos",
+  "Discografía": "Discografía",
+  "Folium Fugit": "Folium Fugit",
+  "ES": "ES",
+  "EN": "EN"
+}

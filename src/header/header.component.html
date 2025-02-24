@@ -7,27 +7,27 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/biografia">{{ 'Biografía' | translate }}</a>
+            <a class="nav-link" routerLink="/biografia" routerLinkActive="active">BIOGRAFÍA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/agenda">{{ 'Agenda' | translate }}</a>
+            <a class="nav-link" routerLink="/agenda">AGENDA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.youtube.com/@elfarnau" target="_blank">{{ 'Vídeos'| translate }}</a>
+            <a class="nav-link" routerLink="/videos">VÍDEOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://open.spotify.com/intl-es/artist/3uMeUCzizxBtZMeGUzIukc?si=mwkaDvyIQRKcCYgbcXKBSw" target="_blank">{{ 'Discografía' | translate }}</a>
+            <a class="nav-link" routerLink="/blog">DISCOGRAFÍA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://www.foliumfugit.com/" target="_blank">{{ 'Folium Fugit' | translate }}</a>
+            <a class="nav-link" routerLink="/folium">FOLIUM FUGIT</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" (click)="cambiarLenguaje('es')">{{ 'ES' | translate }}</a>
+            <a class="nav-link" href="#">ES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" (click)="cambiarLenguaje('en')">{{ 'EN' | translate }}</a>
+            <a class="nav-link" href="#">EN</a>
           </li>
         </ul>
       </div>

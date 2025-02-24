@@ -7,22 +7,14 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  showMenu = false;
-  showLanguageMenu = false;
+  public activeLang = 'es';
 
-  constructor(private translate: TranslateService) {}
-
-  toggleMenu() {
-    this.showMenu = !this.showMenu;
+  constructor(private translate: TranslateService) {
+    this.translate.setDefaultLang(this.activeLang);
   }
 
-  toggleLanguageMenu() {
-    this.showLanguageMenu = !this.showLanguageMenu;
-  }
-
-  changeLanguage(lang: string) {
+  public cambiarLenguaje(lang: string) {
+    this.activeLang = lang;
     this.translate.use(lang);
-    this.showLanguageMenu = false;
-    this.showMenu = false;
   }
 }

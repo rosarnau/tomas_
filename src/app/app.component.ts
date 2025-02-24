@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, NavigationEnd, Event } from '@angular/router';
-import { Subscription } from 'rxjs'; // Importa Subscription
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +9,11 @@ import { Subscription } from 'rxjs'; // Importa Subscription
 })
 export class AppComponent implements OnInit, OnDestroy {
   backgroundImage: string = '';
-  private routerSubscription: Subscription | undefined; // Para la suscripción
+  private routerSubscription: Subscription | undefined;
 
   constructor(private router: Router) {}
 
-  ngOnInit() {  // Mejor usar ngOnInit
+  ngOnInit() {
     this.routerSubscription = this.router.events.subscribe((event: Event) => {
       if (event instanceof NavigationEnd) {
         this.setBackgroundImage(event.url);
@@ -26,18 +26,18 @@ export class AppComponent implements OnInit, OnDestroy {
 
   setBackgroundImage(url: string) {
     const backgrounds: { [key: string]: string } = {
-      '/bio': 'url(../assets/images/background.png',
+      '/bio': 'url(../assets/images/background.png)',
       '/calendar': 'url(assets/images/calendar.jpg)',
       '/video': 'url(assets/images/video.jpg)',
       '/blog': 'url(assets/images/blog.jpg)',
       '/folium': 'url(assets/images/folium.jpg)',
-      '/': 'url(../assets/images/background.jpg',   
-     };
+      '/': 'url(../assets/images/background.jpg)',   
+    };
 
-   /*this.backgroundImage = backgrounds[url] || 'url(assets/images/background.jpg)';*/
+    this.backgroundImage = backgrounds[url] || 'url(assets/images/background.jpg)';
   }
 
-  ngOnDestroy() { // Importante: Desuscribirse
+  ngOnDestroy() {
     if (this.routerSubscription) {
       this.routerSubscription.unsubscribe();
     }
