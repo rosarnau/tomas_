@@ -23,6 +23,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     CalendarComponent,
     HomeComponent,
     TranslationComponent,
+    
   ],
   imports: [
     BrowserModule, 
