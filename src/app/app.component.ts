@@ -27,11 +27,11 @@ export class AppComponent implements OnInit, OnDestroy {
   setBackgroundImage(url: string) {
     const backgrounds: { [key: string]: string } = {
       '/bio': 'url(../assets/images/background.png)',
-      '/calendar': 'url(assets/images/calendar.jpg)',
+      '/agenda': 'url(assets/images/background_calendar.jpg)',
       '/video': 'url(assets/images/video.jpg)',
       '/blog': 'url(assets/images/blog.jpg)',
       '/folium': 'url(assets/images/folium.jpg)',
-      '/': 'url(../assets/images/background.jpg)',   
+      
     };
 
     this.backgroundImage = backgrounds[url] || 'url(assets/images/background.jpg)';

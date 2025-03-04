@@ -41,11 +41,10 @@
     color: black;
     z-index: 3;
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size:1.2em;
     line-height: 2em;
     
-
     }
   
   /* Estilos Responsivos */

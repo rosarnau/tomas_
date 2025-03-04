@@ -1,0 +1,121 @@
+.home-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(50%) blur(2px); /* Blanco y negro + difuminado */
+    z-index: -1; /* Mantiene el fondo detrás */
+  }
+  
+  /* Contenedor principal: imagen a la izquierda, texto a la derecha */
+  .content-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la pantalla */
+   
+  }
+
+
+  
+  /* Cuadro de texto */
+/* Personalizar la barra de desplazamiento */
+.text-box {
+  width: 68%;
+  min-height: 80vh; 
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px auto;
+  margin-top: 80px;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.6);
+  color: black;
+  z-index: 3;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start; 
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  overflow: auto; 
+  gap: 20px;
+
+  /* Personalizar la barra de desplazamiento */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #888 #ccc; /* Firefox */
+}
+
+/* Personalización de la barra de desplazamiento para Webkit (Chrome, Safari, Edge) */
+.text-box::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra */
+}
+
+.text-box::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color de fondo de la pista */
+  border-radius: 10px;
+}
+
+.text-box::-webkit-scrollbar-thumb {
+  background: #888; /* Color del pulgar */
+  border-radius: 10px;
+}
+
+.text-box::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color del pulgar cuando se pasa el mouse */
+}
+
+/* Estilos para el bottom-box */
+.bottom-box {
+  width: 60%;
+  max-height: 40vh;
+  background-color: rgba(248, 174, 248, 0.7);
+  border-color: black solid 1px;
+  border-radius: 10px;
+  padding: 2em;
+  z-index: 4;
+  text-align: center;
+  font-family: 'Lexend Zetta';
+  font-size: 0.8em;
+  line-height: 2em;
+}
+.bottom-box:hover {
+  background-color: rgba(196, 76, 196, 0.7); /* Gris con opacidad */
+}
+a:hover{
+  color:white;
+}
+
+a{
+  color:grey;
+  text-decoration: none;
+}
+  
+  /* Estilos Responsivos */
+  @media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+  
+    .overlay-image {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+    }
+  
+    .text-box {
+        width: 90%;
+        margin-top: 20px;
+    }
+  }

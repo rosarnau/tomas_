@@ -7,14 +7,61 @@
   "ES": "ES",
   "EN": "EN",
   "BIOGRAFIA_CONTENIDO": [
-    "Tomás Jerez Munera received the Honor Award for Saxophone at the end of his studies at the Royal Conservatory of Music in Madrid.",
-    "From that moment on, he perfected his studies with professors Claude Delangle, Serge Bichon, J.M Londeix, Eric Devallon, and Philippe Braquart.",
-    "He was awarded First Prize in the IV International Saxophone Competition 'Villa de Benidorm' in 2002 and selected in 2003 by the European Union Youth Wind Orchestra –EUYWO– to tour Germany, France, the Netherlands, Belgium, and Luxembourg.",
-    "As a soloist, he regularly offers concerts and recitals at numerous International Festivals: Andorra SaxFest, International Saxophone Festival of Teror (Gran Canaria), X Cycle of Contemporary Music of Badajoz –supported by INAEM and the National Center for Musical Diffusion–, X Cycle of Contemporary Music Concerts BBVA Foundation, International Music Festival of Palma, International Saxophone Festival of Sczecin (Poland), IX International Festival of Early Music of Gijón, V Ibero-American Congress of Composers, Conductors and Arrangers of Symphonic Bands and Ensembles, International Saxophone Festival of Palmela 2012-2016 (Portugal), International Saxophone Academy (Oporto-Portugal), XI Musical Encounters of Capvern (France), or the World Saxophone Congresses of Montreal (Canada) and Las Palmas de Gran Canaria.",
-    "He regularly gives master classes throughout the country, Portugal, and at the Francisco de Vitoria University, Menéndez Pelayo International University, and the University of Castilla-La Mancha.",
-    "He has been part of the international jury at the CSMD of Poitiers (France) in the end-of-career awards for violin and saxophone and has had the immense privilege of being the first Spanish saxophonist invited to be part of the jury of the end-of-master saxophone awards at the CNSMDP – National Conservatory of Music and Dance of Paris.",
-    "He has collaborated with the Symphony Orchestra of the Community of Madrid, the Andrés Segovia Chamber Orchestra, and ORTVE, with which he has made recordings for RNE, the National Ballet of Spain, and the 'RTVE Música' label.",
-    "Between 2007-2014 he was a saxophone professor at the Higher Center of Music of the Basque Country (Musikene), a saxophone professor at the Higher Conservatory of Music of Castilla-La Mancha between 2018 and 2022, and a soloist of the Municipal Symphonic Band of Albacete since 1994.",
-    "He is an ambassador for the French instrument brand Henri Selmer Paris."
+   "Tomás Jerez Munera is one of the most outstanding Spanish saxophonists of his generation. His artistic career, marked by international awards and recognitions, has consolidated him as a reference performer in the European scene.",
+   "Trained at the Real Conservatorio Superior de Música de Madrid, where he obtained the Honorary Prize for End of Degree Saxophone in 1997, his career has been marked by success from the very beginning. He was awarded the 1st Prize in the IV International Saxophone Competition of Benidorm and was selected as soloist by the prestigious European Union Youth Wind Orchestra (EUYWO) in 2003.",
+   "Throughout his career, he has given concerts and recitals in important halls throughout Europe, participating in renowned international festivals such as the Andorra SaxFest (Andorra), the International Saxophone Festival in Sczecin (Poland), the Adolphe Sax International Festival in Paris (France), Contemporary Music Concert Series - BBVA Foundation, X Ciclo de Música Actual de Badajoz -supported by INAEM and the Centro Nacional de Difusión Musical- and the Sociedad de Conciertos de Alicante, etc. As a member of the Folium Fugit quartet, he has taken his passion for the saxophone to first level stages, performing repertoires ranging from contemporary music to early music.",
+   "In addition to his interpretative facet, Tomás Jerez has been a juror in prestigious international competitions, highlighting his participation in the Conservatoire National Supérieur de Musique et de Danse de Paris (CNSMDP), where, to date, he is the only Spanish saxophonist invited to evaluate the End of Master's Degree awards.",
+   "His versatility has led him to collaborate with various symphonic and chamber ensembles, such as the Orquesta Sinfónica de la Comunidad de Madrid, the Orquesta de Cámara Andrés Segovia and the ORTVE, making recordings for RNE, the Ballet Nacional de España and the RTVE Música label. As a recording artist, he has released two works on the Adora New Music label: AXIS, with his saxophone quartet, and DELTA, his most recent album in collaboration with pianist Manuel Corbacho.",
+   "In the pedagogical field, he has been a professor at Musikene (Centro Superior de Música del País Vasco) and at the Conservatorio Superior de Castilla-La Mancha, training new generations of saxophonists. Since 2017, he has been an ambassador for the prestigious instrument brand Henri Selmer Paris, and since 1994 he has been Professor of the Municipal Symphonic Band of Albacete.",
+   "With a solid career as a soloist, teacher and international jury, Tomás Jerez Munera continues to be an essential reference in the world of the saxophone."
+],
+"AGENDA_CONTENIDO": [
+    {
+  
+      "date": "March 15th",
+      "concert": "Concert with Folium Fugit",
+      "locationLink": "Alicante Concert Society. Mediterráneo Foundation",
+      "time": "8:00pm",
+      "city": "Alicante"
+    },
+    {
+      "date": "March 29th",
+      "concert": "Presentation Recital \"DELTA\"",
+      "location": "Superior Conservatory of Music - Manuel de Falla Auditorium",
+      "time": "7:00pm",
+      "city": "Madrid"
+    },
+    {
+      "date": "April 22nd",
+      "concert": "Presentation Recital \"DELTA\"",
+      "location": "Musical Youth of Albacete",
+      "place": "Municipal Auditorium",
+      "time": "8:00pm",
+      "city": "Albacete"
+    },
+    {
+      "date": "April 28th",
+      "concert": "<a href=\"https://www.andorrasaxfest.com/?lang=en\" target=\"_blank\">AndorraSaxFest</a>",
+      "details": "Masterclasses and Concerts"
+    },
+    {
+      "date": "May 10th",
+      "concert": "MasterClass",
+      "location": "Instrumentomanía",
+      "city": "Guadassuar (Valencia)"
+    },
+    {
+      "date": "May 25th",
+      "concert": "Folium Fugit Concert",
+      "location": "Festival de las Aguas. Cueva de Montesinos",
+      "time": "12:00pm",
+      "city": "Lagunas de Ruidera (Ciudad Real)"
+    },
+    {
+      "date": "June 6th",
+      "concert": "Folium Fugit Concert",
+      "locationLink": "<a href=\"https://concursodecamaraantongarciaabril.com/\" target=\"_blank\">International Chamber Music Competition \"Antón García Abril\"</a>",
+      "city": "Baza (Granada)"
+    }
   ]
 }

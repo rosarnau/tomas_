@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { BiografiaComponent } from './biografia/biografia.component';
-import { CalendarComponent } from './calendar/calendar.component';
+import { AgendaComponent } from './agenda/agenda.component';
 import { HomeComponent } from './home/home.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -20,7 +20,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     BiografiaComponent,
-    CalendarComponent,
+    AgendaComponent,
     HomeComponent,
     TranslationComponent,
     
