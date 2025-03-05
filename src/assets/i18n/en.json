@@ -15,53 +15,52 @@
    "In the pedagogical field, he has been a professor at Musikene (Centro Superior de Música del País Vasco) and at the Conservatorio Superior de Castilla-La Mancha, training new generations of saxophonists. Since 2017, he has been an ambassador for the prestigious instrument brand Henri Selmer Paris, and since 1994 he has been Professor of the Municipal Symphonic Band of Albacete.",
    "With a solid career as a soloist, teacher and international jury, Tomás Jerez Munera continues to be an essential reference in the world of the saxophone."
 ],
-"AGENDA_CONTENIDO": [
-    {
-  
-      "date": "March 15th",
-      "concert": "Concert with Folium Fugit",
-      "locationLink": "Alicante Concert Society. Mediterráneo Foundation",
-      "time": "8:00pm",
-      "city": "Alicante"
-    },
-    {
-      "date": "March 29th",
-      "concert": "Presentation Recital \"DELTA\"",
-      "location": "Superior Conservatory of Music - Manuel de Falla Auditorium",
-      "time": "7:00pm",
-      "city": "Madrid"
-    },
-    {
-      "date": "April 22nd",
-      "concert": "Presentation Recital \"DELTA\"",
-      "location": "Musical Youth of Albacete",
-      "place": "Municipal Auditorium",
-      "time": "8:00pm",
-      "city": "Albacete"
-    },
-    {
-      "date": "April 28th",
-      "concert": "<a href=\"https://www.andorrasaxfest.com/?lang=en\" target=\"_blank\">AndorraSaxFest</a>",
-      "details": "Masterclasses and Concerts"
-    },
-    {
-      "date": "May 10th",
-      "concert": "MasterClass",
-      "location": "Instrumentomanía",
-      "city": "Guadassuar (Valencia)"
-    },
-    {
-      "date": "May 25th",
-      "concert": "Folium Fugit Concert",
-      "location": "Festival de las Aguas. Cueva de Montesinos",
-      "time": "12:00pm",
-      "city": "Lagunas de Ruidera (Ciudad Real)"
-    },
-    {
-      "date": "June 6th",
-      "concert": "Folium Fugit Concert",
-      "locationLink": "<a href=\"https://concursodecamaraantongarciaabril.com/\" target=\"_blank\">International Chamber Music Competition \"Antón García Abril\"</a>",
-      "city": "Baza (Granada)"
-    }
-  ]
+"AGENDA": {
+  "EVENTO_1": {
+    "FECHA": "15th March",
+    "CONCIERTO": "Conciert with Folium Fugit",
+    "LUGAR": "Alicante Concert Society. Mediterráneo Foundation - Alicante",
+    "HORA": "20:00h",
+    "CIUDAD": "Alicante"
+  },
+  "EVENTO_2": {
+    "FECHA": "29th March",
+    "CONCIERTO": "Recital - Presentation ‘DELTA",
+    "LUGAR": "Conservatory of Music of Madrid - Auditorium Manuel de Falla",
+    "HORA": "19:00h",
+    "CIUDAD": "Madrid"
+  },
+  "EVENTO_3": {
+    "FECHA": "22th April",
+    "CONCIERTO": "Recital - Presentation 'DELTA'. Juventudes Musicales de Albacete",
+    "LUGAR": "Municipal Auditorium",
+    "HORA": "20:00h",
+    "CIUDAD": "Albacete"
+  },
+  "EVENTO_4": {
+    "FECHA": "28th April",
+    "CONCIERTO": "Andorra SaxFest. Masterclasses y Conciertos",
+    "CIUDAD": "Andorra la Vella"
+    
+  },
+  "EVENTO_5": {
+    "FECHA": "10th May",
+    "CONCIERTO": "Masterclass",
+    "LUGAR": "Instrumentomanía",
+    "CIUDAD": "Guadassuar (Valencia)"
+
+},
+   "EVENTO_6": {
+    "FECHA": "25th May",
+    "CONCIERTO": "Concert with Folium Fugit",
+    "LUGAR": "Cueva de Montesinos",
+    "CIUDAD": "Lagunas de Ruidera (Ciudad Real)"
+  },
+     "EVENTO_7": {
+    "FECHA": "6th June",
+    "CONCIERTO": "Concert with Folium Fugit",
+    "LUGAR": "13º Concurso Internacional de Música de Cámara 'Antón García-Abril'",
+    "CIUDAD": "Baza (Granada)"
+  }
 }
+} 

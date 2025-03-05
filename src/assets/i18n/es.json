@@ -20,15 +20,48 @@
     "EVENTO_1": {
       "FECHA": "15 de Marzo",
       "CONCIERTO": "Concierto con Folium Fugit",
-      "LUGAR": "Sociedad de Conciertos de Alicante",
+      "LUGAR": "Sociedad de Conciertos de Alicante. Fundación Mediterráneo - Alicante",
       "HORA": "20:00h",
       "CIUDAD": "Alicante"
     },
     "EVENTO_2": {
       "FECHA": "29 de Marzo",
-      "CONCIERTO":"Recita - Presentación DELTA",
+      "CONCIERTO":"Recital - Presentación 'DELTA'",
       "LUGAR": "Conservatorio Superior de Música de Madrid - Auditorio Manuel de Falla",
-      "HORA": "19:00h"
+      "HORA": "19:00h",
+      "CIUDAD": "Madrid"
+    },
+    "EVENTO_3": {
+      "FECHA": "22 de Abril",
+      "CONCIERTO": "Recital - Presentación 'DELTA'. Juventudes Musicales de Albacete",
+      "LUGAR": "Auditorio Municipal",
+      "HORA": "20:00h",
+      "CIUDAD": "Albacete"
+    },
+    "EVENTO_4": {
+      "FECHA": "28 de Abril",
+      "CONCIERTO": "Andorra SaxFest. Masterclasses y Conciertos",
+      "CIUDAD": "Andorra la Vella"
+      
+    },
+    "EVENTO_5": {
+      "FECHA": "10 de Mayo",
+      "CONCIERTO": "Masterclass",
+      "LUGAR": "Instrumentomanía",
+      "CIUDAD": "Guadassuar (Valencia)"
+
+  },
+     "EVENTO_6": {
+      "FECHA": "25 de Mayo",
+      "CONCIERTO": "Concierto Folium Fugit",
+      "LUGAR": "Cueva de Montesinos",
+      "CIUDAD": "Lagunas de Ruidera (Ciudad Real)"
+    },
+       "EVENTO_7": {
+      "FECHA": "6 de Junio",
+      "CONCIERTO": "Concierto Folium Fugit",
+      "LUGAR": "13º Concurso Internacional de Música de Cámara 'Antón García-Abril'",
+      "CIUDAD": "Baza (Granada)"
     }
-  }
 }
+} 
