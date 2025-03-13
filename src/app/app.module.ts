@@ -11,7 +11,10 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslationComponent } from './translation/translation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { ConciertosPasadosComponent } from './conciertospasados/conciertospasados.component';
+
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json'); // Ruta correcta a tus archivos de traducción
 }
@@ -23,6 +26,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     AgendaComponent,
     HomeComponent,
     TranslationComponent,
+    ConciertosPasadosComponent,
     
   ],
   imports: [
@@ -32,10 +36,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     HttpClientModule,
     BrowserAnimationsModule,
     RouterModule,
+    CommonModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
-        useFactory: HttpLoaderFactory, // Usa la función factory que has definido
+        useFactory: (http: HttpClient) => new TranslateHttpLoader(http, './assets/i18n/', '.json'),
         deps: [HttpClient]
       }
     })

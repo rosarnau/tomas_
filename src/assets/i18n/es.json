@@ -19,13 +19,16 @@
   "AGENDA": {
     "EVENTO_1": {
       "FECHA": "15 de Marzo",
+      "FECHA_ISO": "2025-03-15",
       "CONCIERTO": "Concierto con Folium Fugit",
       "LUGAR": "Sociedad de Conciertos de Alicante. Fundación Mediterráneo - Alicante",
       "HORA": "20:00h",
-      "CIUDAD": "Alicante"
+      "CIUDAD": "Alicante",
+      "ENLACE": "https://www.vivaticket.es/ticket/conciertocuartetodesaxofonesfoliumfugit/CUARTETO"
     },
     "EVENTO_2": {
       "FECHA": "29 de Marzo",
+      "FECHA_ISO": "2025-03-29",
       "CONCIERTO":"Recital - Presentación 'DELTA'",
       "LUGAR": "Conservatorio Superior de Música de Madrid - Auditorio Manuel de Falla",
       "HORA": "19:00h",
@@ -33,6 +36,7 @@
     },
     "EVENTO_3": {
       "FECHA": "22 de Abril",
+      "FECHA_ISO": "2025-04-22",
       "CONCIERTO": "Recital - Presentación 'DELTA'. Juventudes Musicales de Albacete",
       "LUGAR": "Auditorio Municipal",
       "HORA": "20:00h",
@@ -40,28 +44,37 @@
     },
     "EVENTO_4": {
       "FECHA": "28 de Abril",
+      "FECHA_ISO": "2025-04-28",
       "CONCIERTO": "Andorra SaxFest. Masterclasses y Conciertos",
-      "CIUDAD": "Andorra la Vella"
+      "CIUDAD": "Andorra la Vella",
+      "ENLACE": "https://www.andorrasaxfest.com/ "
       
     },
     "EVENTO_5": {
       "FECHA": "10 de Mayo",
+      "FECHA_ISO": "2025-05-10",
       "CONCIERTO": "Masterclass",
       "LUGAR": "Instrumentomanía",
-      "CIUDAD": "Guadassuar (Valencia)"
+      "CIUDAD": "Guadassuar (Valencia)",
+      "ENLACE": "https://instrumentomania.com/content/30-eventosyreservas"
 
   },
      "EVENTO_6": {
       "FECHA": "25 de Mayo",
+      "FECHA_ISO": "2025-05-25",
       "CONCIERTO": "Concierto Folium Fugit",
       "LUGAR": "Cueva de Montesinos",
       "CIUDAD": "Lagunas de Ruidera (Ciudad Real)"
     },
        "EVENTO_7": {
       "FECHA": "6 de Junio",
+      "FECHA_ISO": "2025-06-06",
       "CONCIERTO": "Concierto Folium Fugit",
       "LUGAR": "13º Concurso Internacional de Música de Cámara 'Antón García-Abril'",
-      "CIUDAD": "Baza (Granada)"
+      "CIUDAD": "Baza (Granada)",
+      "ENLACE":"https://concursodecamaraantongarciaabril.com/'"
     }
-}
+},
+"PRÓXIMOS CONCIERTOS": "PRÓXIMOS CONCIERTOS",
+"CONCIERTOS PASADOS": "CONCIERTOS PASADOS"
 } 

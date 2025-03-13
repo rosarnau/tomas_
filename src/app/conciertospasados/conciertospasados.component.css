@@ -92,15 +92,15 @@
   background-color: rgba(196, 76, 196, 0.7); /* Gris con opacidad */
 }
 a:hover{
-  color:#888;
+  color:white;
 }
 
 a{
-  color:#555;
+  color:grey;
   text-decoration: none;
 }
 h1{
-  color:#555;
+  color:grey;
   font-family: 'Lexend Zetta';
   font-size: 1em;
   margin-top: 30px;

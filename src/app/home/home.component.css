@@ -1,6 +1,8 @@
 .home-background {
   width: 100%;
   height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .nombre-container {
@@ -8,6 +10,8 @@
   top: 50%;
   left: 25%;
   transform: translate(-50%, -50%);
+  text-align: center; /* Centrar el texto */
+  width: 90%;
   /* Remove opacity and transition from here.  Handled by animation. */
 }
 
@@ -16,5 +20,34 @@
   font-size: 3.3rem;
   color: #f5eeee;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .nombre {
+    font-size: 2.5rem; /* Reduce en pantallas medianas */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nombre {
+    font-size: 2.2rem; /* Reduce más en tablets */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nombre {
+    font-size: 1.8rem; /* Tamaño más pequeño en móviles */
+    white-space: normal;
+    padding: 0 10px; /* Permite que el texto se divida si es necesario */
+  }
+
+  .nombre-container {
+    width: 100%;
+    left: 50%;
+    top:15%;
+    transform: translate(-50%, -40%);
+  }
+
 }
 

@@ -23,7 +23,7 @@
   
   /* Imagen a la izquierda */
   .overlay-image {
-    width: 45%; /* Ocupa el 45% del ancho */
+    width: auto; 
     height: 100vh; /* Ocupa toda la altura de la pantalla */
     object-fit: cover; /* Asegura que la imagen se ajuste bien */
     z-index: 2; /* Encima del fondo */
@@ -31,10 +31,10 @@
   
   /* Cuadro de texto */
   .text-box {
-    width: 60%;
-    max-height: 80vh;
-    background: rgba(214, 211, 211, 0);
-    padding: 3rem;
+    width: 90%;
+    max-height: 85vh;
+    background: rgba(253, 251, 251, 0.1);
+    padding: 3em;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.1);
     overflow: auto;
@@ -47,22 +47,3 @@
     
     }
   
-  /* Estilos Responsivos */
-  @media (max-width: 768px) {
-    .content-wrapper {
-        flex-direction: column;
-        text-align: center;
-        height: auto;
-    }
-  
-    .overlay-image {
-        width: 100%;
-        height: auto;
-        max-height: 400px;
-    }
-  
-    .text-box {
-        width: 90%;
-        margin-top: 20px;
-    }
-  }

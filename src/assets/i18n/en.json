@@ -18,13 +18,17 @@
 "AGENDA": {
   "EVENTO_1": {
     "FECHA": "15th March",
+    "FECHA_ISO": "2025-03-15",
     "CONCIERTO": "Conciert with Folium Fugit",
     "LUGAR": "Alicante Concert Society. Mediterráneo Foundation - Alicante",
     "HORA": "20:00h",
-    "CIUDAD": "Alicante"
+    "CIUDAD": "Alicante",
+    "ENLACE": "https://www.vivaticket.es/ticket/conciertocuartetodesaxofonesfoliumfugit/CUARTETO/"
+
   },
   "EVENTO_2": {
     "FECHA": "29th March",
+    "FECHA_ISO": "2025-03-29",
     "CONCIERTO": "Recital - Presentation ‘DELTA",
     "LUGAR": "Conservatory of Music of Madrid - Auditorium Manuel de Falla",
     "HORA": "19:00h",
@@ -32,6 +36,7 @@
   },
   "EVENTO_3": {
     "FECHA": "22th April",
+    "FECHA_ISO": "2025-04-22",
     "CONCIERTO": "Recital - Presentation 'DELTA'. Juventudes Musicales de Albacete",
     "LUGAR": "Municipal Auditorium",
     "HORA": "20:00h",
@@ -39,28 +44,38 @@
   },
   "EVENTO_4": {
     "FECHA": "28th April",
+    "FECHA_ISO": "2025-04-28",
     "CONCIERTO": "Andorra SaxFest. Masterclasses y Conciertos",
-    "CIUDAD": "Andorra la Vella"
+    "CIUDAD": "Andorra la Vella",
+    "ENLACE": "https://www.andorrasaxfest.com/ target='_blank'"
     
   },
   "EVENTO_5": {
     "FECHA": "10th May",
+    "FECHA_ISO": "2025-05-10",
     "CONCIERTO": "Masterclass",
     "LUGAR": "Instrumentomanía",
-    "CIUDAD": "Guadassuar (Valencia)"
+    "CIUDAD": "Guadassuar (Valencia)",
+    "ENLACE": "'https://instrumentomania.com/content/30-eventosyreservas'"
 
 },
    "EVENTO_6": {
     "FECHA": "25th May",
+    "FECHA_ISO": "2025-05-25",
     "CONCIERTO": "Concert with Folium Fugit",
     "LUGAR": "Cueva de Montesinos",
     "CIUDAD": "Lagunas de Ruidera (Ciudad Real)"
   },
      "EVENTO_7": {
     "FECHA": "6th June",
+    "FECHA_ISO": "2025-06-06",
     "CONCIERTO": "Concert with Folium Fugit",
     "LUGAR": "13º Concurso Internacional de Música de Cámara 'Antón García-Abril'",
-    "CIUDAD": "Baza (Granada)"
+    "CIUDAD": "Baza (Granada)",
+    "ENLACE":"https://concursodecamaraantongarciaabril.com/"
+
   }
-}
+},
+"CONCIERTOS PASADOS": "PAST CONCERTS",
+"PRÓXIMOS CONCIERTOS": "UPCOMING CONCERTS"
 } 

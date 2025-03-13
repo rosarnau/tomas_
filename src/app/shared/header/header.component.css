@@ -7,7 +7,6 @@
     border-bottom: grey 1px solid;
     padding: 1rem;
     z-index: 1000; /* Asegura que esté encima de otros elementos */ 
-    font-family: "Rubik", serif;
     font-optical-sizing: auto;
     }
   
@@ -22,12 +21,15 @@
     font-size: 1.5rem;
     letter-spacing: 0.1rem;
    
+   
   }
   
   /* Cambio de color en hover */
   .navbar-nav .nav-link:hover {
     color: #f0bbeb !important;
   }
+
+  
   
   /* Ajuste del nombre */
   .nombre-container {

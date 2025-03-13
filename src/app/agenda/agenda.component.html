@@ -12,16 +12,29 @@
    
   
   <div class="text-box" #textBox>
-    <h1>PRÓXIMOS CONCIERTOS</h1>
-
-    <div class="bottom-box">
-      <p>{{ 'AGENDA.EVENTO_1.FECHA' | translate }}</p>
-      <p>{{ 'AGENDA.EVENTO_1.CONCIERTO' | translate }}</p>
-      <p><a href='https://sociedadconciertosalicante.com/agenda-2/' target='_blank'>{{ 'AGENDA.EVENTO_1.LUGAR' | translate }}</a></p>
-      <p>{{ 'AGENDA.EVENTO_1.HORA' | translate }}</p>
-      <p>{{ 'AGENDA.EVENTO_1.CIUDAD' | translate }}</p>
+    <h1>
+      {{ 'PRÓXIMOS CONCIERTOS' | translate }} |
+      <a routerLink="/conciertospasados">{{ 'CONCIERTOS PASADOS' | translate }}</a>
+    </h1> 
+    
+    <div class="bottom-box" *ngFor="let evento of conciertosProximos">
+      <p>{{ evento.fechaKey | translate }}</p>
+      <p *ngIf="evento.conciertoKey">{{ evento.conciertoKey | translate }}</p>
+    
+      <p>
+        <a *ngIf="evento.enlace; else sinEnlace" [href]="evento.enlace" target="_blank">
+          {{ (evento.lugarKey || '') | translate }}
+        </a>
+        <ng-template #sinEnlace>
+          {{ (evento.lugarKey || '') | translate }}
+        </ng-template>
+      </p>
+    
+      <p *ngIf="evento.horaKey">{{ evento.horaKey | translate }}</p>
+      <p *ngIf="evento.ciudadKey">{{ evento.ciudadKey | translate }}</p>
     </div>
     
+    <!--
     <div class="bottom-box">
       <p>{{ 'AGENDA.EVENTO_2.FECHA' | translate }}</p>
       <p>{{ 'AGENDA.EVENTO_2.CONCIERTO' | translate }}</p>
@@ -66,4 +79,6 @@
       <p><a href='https://concursodecamaraantongarciaabril.com/' target="_blank">{{ 'AGENDA.EVENTO_7.LUGAR' | translate }}</a></p>
       <p>{{ 'AGENDA.EVENTO_7.CIUDAD' | translate }}</p>
     </div>
-    
+    -->
+  </div>
+</div>

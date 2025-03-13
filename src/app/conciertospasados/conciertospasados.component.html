@@ -1,0 +1,29 @@
+<div 
+  class="home-background"
+  [ngStyle]="{ 
+    'background-image': 'url(../assets/images/background_calendar.jpg)', 
+    'background-size': 'cover', 
+    'background-repeat': 'no-repeat', 
+    'background-position': 'center', 
+    'height': '100vh' 
+  }">
+</div>
+<div class="content-wrapper">
+    <div class="text-box">
+      <h1>{{ 'CONCIERTOS PASADOS' | translate }}</h1>
+  
+      <div class="bottom-box" *ngFor="let evento of conciertosPasados">
+        <p>{{ evento.fechaKey | translate }}</p>
+        <p>
+          <a *ngIf="evento.enlace" [href]="evento.enlace" target="_blank">
+            {{ evento.conciertoKey | translate }}
+          </a>
+          <span *ngIf="!evento.enlace">{{ evento.conciertoKey | translate }}</span>
+        </p>
+        <p *ngIf="evento.lugarKey">{{ evento.lugarKey | translate }}</p>
+        <p *ngIf="evento.horaKey">{{ evento.horaKey | translate }}</p>
+        <p *ngIf="evento.ciudadKey">{{ evento.ciudadKey | translate }}</p>
+      </div>
+    </div>
+  </div>
+  
