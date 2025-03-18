@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -9,12 +10,13 @@ import { TranslateService } from '@ngx-translate/core';
 export class HeaderComponent {
   public activeLang = 'es';
 
-  constructor(private translate: TranslateService) {
-    this.translate.setDefaultLang(this.activeLang);
-  }
+constructor(private translate: TranslateService) {
+  this.translate.setDefaultLang(this.activeLang);
+}
 
-  public cambiarLenguaje(lang: string) {
-    this.activeLang = lang;
-    this.translate.use(lang);
-  }
+public cambiarLenguaje(lang: string) {
+  this.activeLang = lang;
+  this.translate.use(lang);
+}
+ 
 }

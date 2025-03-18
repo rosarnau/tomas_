@@ -1,7 +1,9 @@
+/* ---------------------------
+   Estilos para el Footer
+--------------------------- */
 .footer {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)) !important;
   color: white;
-  text-align: center;
   padding: 1rem;
   position: fixed;
   bottom: 0;
@@ -9,22 +11,56 @@
   z-index: 1000;
 }
 
+/* 📌 Contenedor del Footer */
 .container {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
-.social-icons {
-  margin-top: 10px;
+/* 📌 Distribución del contenido en el footer */
+.footer-content {
+  display: flex;
+  align-items: center; /* 📌 Mantiene alineación vertical */
+  width: 100%;
+  
 }
 
-.social-icons a {
+/* 📌 Texto de Derechos Reservados */
+.footer-text {
+  font-size: 0.8rem;
   color: white;
-  font-size: 20px;
-  margin: 0 10px;
-  transition: 0.3s;
+  text-align: right; /* 📌 Asegura que el texto se alinee a la derecha */
+  padding-right: 0px;
+}
+a{
+  color: pink;
+  text-decoration: none;
+}
+:hover{
+  color:aliceblue;
 }
 
-.social-icons a:hover {
-  color: #f0bbeb; /* Color de Twitter como ejemplo */
+
+/* ---------------------------
+   Responsivo: Ajustes en Pantallas Pequeñas
+--------------------------- */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: row; /* 📌 Mantiene distribución en móviles */
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-text {
+        margin-left: 5px;
+    }
+
+    .navbar-nav {
+        margin-right: 5px;
+        gap: 10px; /* 📌 Reduce espacio entre ES EN */
+    }
+
+    .nav-link {
+        font-size: 0.9rem; /* 📌 Ajuste en móviles */
+    }
 }

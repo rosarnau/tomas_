@@ -107,7 +107,15 @@ h1{
 }
   
   /* Estilos Responsivos */
-  @media (max-width: 768px) {
+  @media (max-width: 812px) {
+
+     .bottom-box {
+        width: 85%; /* 📌 Más ancho en móviles */
+        max-height: none; /* 📌 Permite que el contenido se ajuste */
+        padding: 1.5em; /* 📌 Reduce el padding para más espacio */
+        font-size: 1em;
+        overflow-y:auto; /* 📌 Texto un poco más grande para mejor legibilidad */
+    }
     .content-wrapper {
         flex-direction: column;
         text-align: center;
@@ -125,3 +133,11 @@ h1{
         margin-top: 20px;
     }
   }
+  @media (max-width: 375px) { /* 📌 Para móviles aún más pequeños */
+    .bottom-box {
+        width: 90%; /* 📌 Se adapta mejor en pantallas muy angostas */
+        max-height: 50vh; /* 📌 Evita que se salga en pantallas más pequeñas */
+        padding: 1.2em;
+        font-size: 0.9em; /* 📌 Ajusta el tamaño del texto */
+    }
+}

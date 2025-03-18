@@ -31,10 +31,10 @@
   
   /* Cuadro de texto */
   .text-box {
-    width: 90%;
-    max-height: 85vh;
-    background: rgba(253, 251, 251, 0.1);
-    padding: 3em;
+    width: 70%;
+    max-height: 80vh;
+    background: rgba(214, 211, 211, 0);
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.1);
     overflow: auto;
@@ -42,8 +42,48 @@
     z-index: 3;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
-    font-size:1.2em;
+    font-size:1.1em;
     line-height: 2em;
-    
+  
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #888 #ccc; /* Firefox */
+  }
+  
+  /* Personalización de la barra de desplazamiento para Webkit (Chrome, Safari, Edge) */
+  .text-box::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra */
+  }
+  
+  .text-box::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color de fondo de la pista */
+    border-radius: 10px;
+  }
+  
+  .text-box::-webkit-scrollbar-thumb {
+    background: #888; /* Color del pulgar */
+    border-radius: 10px;
+  }
+  
+  .text-box::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del pulgar cuando se pasa el mouse */
+  }
+  
+  /* Estilos Responsivos */
+  @media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
     }
   
+    .overlay-image {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+    }
+  
+    .text-box {
+        width: 90%;
+        margin-top: 20px;
+    }
+  }

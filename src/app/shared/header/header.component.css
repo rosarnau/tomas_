@@ -3,8 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(to bottom,rgb(35, 35, 35), rgba(0, 0, 0, 0.5)) !important;
-    border-bottom: grey 1px solid;
+    background: linear-gradient(to bottom,rgb(35, 35, 35), rgba(0, 0, 0.1, 0.1)) !important;
     padding: 1rem;
     z-index: 1000; /* Asegura que esté encima de otros elementos */ 
     font-optical-sizing: auto;
@@ -18,8 +17,9 @@
     padding-right: 30px;
     padding-left:15px;
     color: white !important;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: 0.1rem;
+    gap:30px;
    
    
   }
@@ -29,6 +29,10 @@
     color: #f0bbeb !important;
   }
 
+  .lang-menu .nav-link {
+    font-size: 1.2rem !important;
+   
+}
   
   
   /* Ajuste del nombre */
@@ -41,6 +45,18 @@
     color: white;
     font-size: 2rem;
     font-weight: bold;
+  }
+ 
+  
+  .social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #f0bbeb; /* Color de Twitter como ejemplo */
   }
   
   
