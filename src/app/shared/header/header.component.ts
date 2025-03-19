@@ -18,5 +18,13 @@ public cambiarLenguaje(lang: string) {
   this.activeLang = lang;
   this.translate.use(lang);
 }
+
+closeNavbar(): void {
+  const navbarCollapse = document.getElementById('navbarNav');
+  if (navbarCollapse && navbarCollapse.classList.contains('show')) {
+    // Elimina la clase 'show' para cerrar el menú
+    navbarCollapse.classList.remove('show');
+  }
+}
  
 }

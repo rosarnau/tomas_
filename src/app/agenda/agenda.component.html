@@ -13,10 +13,14 @@
   
   <div class="text-box" #textBox>
     <h1>
-      {{ 'PRÓXIMOS CONCIERTOS' | translate }} |
-      <a routerLink="/conciertospasados">{{ 'CONCIERTOS PASADOS' | translate }}</a>
-    </h1> 
-    
+      {{ 'PRÓXIMOS CONCIERTOS' | translate }}   |  
+      
+       <a class="conciertos-pasados" routerLink="/conciertospasados">{{ 'CONCIERTOS PASADOS' | translate }}</a>
+    </h1>
+
+
+
+
     <div class="bottom-box" *ngFor="let evento of conciertosProximos">
       <p>{{ evento.fechaKey | translate }}</p>
       <p *ngIf="evento.conciertoKey">{{ evento.conciertoKey | translate }}</p>

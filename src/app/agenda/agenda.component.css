@@ -22,8 +22,22 @@
    
   }
 
-
+  .conciertos-pasados {
+    color: #aaa6a5;/* 🔹 Color */
+    text-decoration: none;
+    font-size: inherit;  /* 🔹 Hereda el tamaño de la fuente del <h1> */
+    font-family: inherit; /* 🔹 Hereda la fuente del <h1> */
+  }
   
+  /* 📌 Cambio de color al pasar el cursor */
+  .conciertos-pasados:hover {
+    color: #f8aef8b3; /* 🔹 Color más intenso */
+    text-decoration: none;
+  }
+  
+
+
+
   /* Cuadro de texto */
 /* Personalizar la barra de desplazamiento */
 .text-box {
@@ -133,11 +147,33 @@ h1{
         margin-top: 20px;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .bottom-box {
+        width: 85%; /* 📌 Más ancho en móviles */
+        max-height: none; /* 📌 Permite que el contenido se ajuste */
+        padding: 1.5em; /* 📌 Reduce el padding para más espacio */
+        font-size: 1em; /* 📌 Texto un poco más grande para mejor legibilidad */
+    }
+    .text-box {
+      font-size: 0.9em !important;  /* 🔹 Reduce la fuente en móviles */
+      line-height: 1.4em;  /* 🔹 Reduce el espacio entre líneas */
+      word-break: normal; /* 🔹 Evita que las palabras se corten */
+      overflow-wrap: break-word; /* 🔹 Permite que las palabras largas pasen a la siguiente línea */
+  }
+    
+  }
   @media (max-width: 375px) { /* 📌 Para móviles aún más pequeños */
     .bottom-box {
-        width: 90%; /* 📌 Se adapta mejor en pantallas muy angostas */
-        max-height: 50vh; /* 📌 Evita que se salga en pantallas más pequeñas */
+        width: 90%; 
+        max-height: 50vh; 
         padding: 1.2em;
-        font-size: 0.9em; /* 📌 Ajusta el tamaño del texto */
+      
     }
+    .text-box {
+      font-size: 0.9em !important;  /* 🔹 Reduce la fuente en móviles */
+      line-height: 1.4em;  /* 🔹 Reduce el espacio entre líneas */
+      word-break: normal; /* 🔹 Evita que las palabras se corten */
+      overflow-wrap: break-word; /* 🔹 Permite que las palabras largas pasen a la siguiente línea */
+  }
 }

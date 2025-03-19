@@ -70,6 +70,14 @@
   
   /* Estilos Responsivos */
   @media (max-width: 768px) {
+
+    .home-background {
+      height: auto; /* 🔹 Permite que el fondo crezca según el contenido */
+      min-height: 100vh; /* 🔹 Mantiene una altura mínima */
+      background-size: cover; /* 🔹 Ajusta la imagen al alto y permite la repetición */
+      background-repeat: repeat-y; /* 🔹 Repite el fondo verticalmente */
+      background-position: center top; /* 🔹 Asegura que la imagen comience desde arriba */
+    }
     .content-wrapper {
         flex-direction: column;
         text-align: center;
@@ -85,5 +93,27 @@
     .text-box {
         width: 90%;
         margin-top: 20px;
+          
+    }
+    
+  }
+    
+  @media (max-width: 375px) {
+    .home-background {
+      height: auto; /* Permite que el fondo crezca según el contenido */
+      min-height: 100vh; /* Mantiene una altura mínima */
+      background-size: contain; /* Ajusta la imagen sin recortar */
+      background-repeat: repeat-y; /* 🔹 Repite el fondo en dirección vertical */
+    }
+  
+    .content-wrapper {
+      flex-direction: column;
+      height: auto; /* Se adapta al contenido */
+    }
+  
+    .text-box {
+      width: 90%;
+      margin-top: 20px;
     }
   }
+  

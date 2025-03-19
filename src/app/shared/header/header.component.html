@@ -6,40 +6,41 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link"  routerLink="/biografia">{{ 'Biografía' | translate }}</a>
+            <a class="nav-link"  routerLink="/biografia" (click)="closeNavbar()">{{ 'Biografía' | translate }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/agenda">{{ 'Agenda' | translate }}</a>
+            <a class="nav-link" routerLink="/agenda" (click)="closeNavbar()">{{ 'Agenda' | translate }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.youtube.com/@elfarnau" target="_blank">{{ 'Vídeos'| translate }}</a>
+            <a class="nav-link" href="https://www.youtube.com/@elfarnau" target="_blank" (click)="closeNavbar()">{{ 'Vídeos'| translate }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://open.spotify.com/intl-es/artist/3uMeUCzizxBtZMeGUzIukc?si=mwkaDvyIQRKcCYgbcXKBSw" target="_blank">{{ 'Discografía' | translate }}</a>
+            <a class="nav-link" href="https://www.adoranewmusic.com/artists/tomas-jerez" target="_blank" (click)="closeNavbar()">{{ 'Discografía' | translate }}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="http://www.foliumfugit.com/" target="_blank">{{ 'Folium Fugit' | translate }}</a>
+            <a class="nav-link" href="http://www.foliumfugit.com/" target="_blank" (click)="closeNavbar()">{{ 'Folium Fugit' | translate }}</a>
           </li>
         </ul>
-</div>
       
       <ul class="navbar-nav lang-menu ml-auto">
         <li class="nav-item">
-          <a class="nav-link small" (click)="cambiarLenguaje('es')">{{ 'ES' | translate }}</a>
+          <a class="nav-link small" (click)="cambiarLenguaje('es')" (click)="closeNavbar()">{{ 'ES' | translate }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link small" (click)="cambiarLenguaje('en')">{{ 'EN' | translate }}</a>
+          <a class="nav-link small" (click)="cambiarLenguaje('en')" (click)="closeNavbar()">{{ 'EN' | translate }}</a>
         </li>
       </ul>
+    </div>
 
     
 
       <div class="social-icons">
-        <a href="https://open.spotify.com/intl-es/artist/3uMeUCzizxBtZMeGUzIukc?si=mwkaDvyIQRKcCYgbcXKBSw" target="_blank"><i class="fab fa-spotify"></i></a>
-        <a href="https://www.youtube.com/@elfarnau" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a href="https://www.instagram.com/tomas_jerezmunera?igsh=aWZseDVkdDR4aTRh" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.facebook.com/tomas.jerezmunera" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://open.spotify.com/intl-es/artist/3uMeUCzizxBtZMeGUzIukc?si=mwkaDvyIQRKcCYgbcXKBSw" target="_blank" (click)="closeNavbar()"><i class="fab fa-spotify"></i></a>
+        <a href="https://www.youtube.com/@elfarnau" target="_blank"><i class="fab fa-youtube" (click)="closeNavbar()"></i></a>
+        <a href="https://www.instagram.com/tomas_jerezmunera?igsh=aWZseDVkdDR4aTRh" target="_blank"><i class="fab fa-instagram" (click)="closeNavbar()"></i></a>
+        <a href="https://www.facebook.com/tomas.jerezmunera" target="_blank"><i class="fab fa-facebook-f" (click)="closeNavbar()"></i></a>
 
       </div> 
     </div>
+
   </nav>
