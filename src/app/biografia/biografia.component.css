@@ -69,15 +69,26 @@
   }
   
   /* Estilos Responsivos */
+  @media (max-width: 812px) { 
+    .home-background {
+        height: auto; 
+        min-height: 150vh; /* 🔹 Más alto en orientación horizontal */
+        background-size: auto 100vh; /* 🔹 Ajusta la imagen al alto sin recortar */
+        background-repeat: repeat-y !important; /* 🔹 Fuerza la repetición vertical */
+        background-position: center top; /* 🔹 Asegura que el fondo comience desde arriba */
+    }
+}
+
   @media (max-width: 768px) {
 
     .home-background {
       height: auto; /* 🔹 Permite que el fondo crezca según el contenido */
-      min-height: 100vh; /* 🔹 Mantiene una altura mínima */
-      background-size: cover; /* 🔹 Ajusta la imagen al alto y permite la repetición */
-      background-repeat: repeat-y; /* 🔹 Repite el fondo verticalmente */
+      min-height: 150vh; /* 🔹 Mantiene una altura mínima */
+      background-size: auto 100vh; /* 🔹 Ajusta la imagen al alto y permite la repetición */
+      background-repeat: repeat-y !important; /* 🔹 Repite el fondo verticalmente */
       background-position: center top; /* 🔹 Asegura que la imagen comience desde arriba */
     }
+
     .content-wrapper {
         flex-direction: column;
         text-align: center;
@@ -100,10 +111,9 @@
     
   @media (max-width: 375px) {
     .home-background {
-      height: auto; /* Permite que el fondo crezca según el contenido */
-      min-height: 100vh; /* Mantiene una altura mínima */
-      background-size: contain; /* Ajusta la imagen sin recortar */
-      background-repeat: repeat-y; /* 🔹 Repite el fondo en dirección vertical */
+      min-height: 150vh; /* Mantiene una altura mínima */
+      background-size: auto 100vh; /* Ajusta la imagen sin recortar */
+      background-repeat: repeat-y !important; /* 🔹 Repite el fondo en dirección vertical */
     }
   
     .content-wrapper {
